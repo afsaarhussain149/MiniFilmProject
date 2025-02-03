@@ -1,0 +1,22 @@
+*{
+  background-color:black;
+  color: white;
+}
+
+*::-webkit-scrollbar{
+  display: none;
+}
+
+.hoverEffact{
+  overflow: hidden;
+  transition: 0.7s ease;
+}
+
+.hoverEffact img{
+  transition: transform 0.2s ease;
+  transform: translateZ(0);
+}
+
+.hoverEffact:hover img{
+  transform: scale(1.1) translateY(0);
+}
