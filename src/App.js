@@ -1,6 +1,6 @@
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css';
-
+import MoviesZone from './MoviesZone/MoviesZone';
 
 
 function App() {
